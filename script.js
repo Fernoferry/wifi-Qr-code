@@ -16,7 +16,7 @@ function fetchRequest(file, formData) {
         document.querySelector("textarea").innerText = result;
         form.querySelector("img").src = URL.createObjectURL(file);
         wrapper.classList.add("active");
-        window.location.href=result;
+       
     }).catch(() => {
         infoText.innerText = "Impossible de scanner le code QR";
     });
