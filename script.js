@@ -36,4 +36,4 @@ copyBtn.addEventListener("click", () => {
     window.location.href= infoText.innerText.result;
 });*/
 form.addEventListener("click", () => fileInp.click());
-closeBtn.addEventListener("click", () => wrapper.classList.remove("active"));
+/*closeBtn.addEventListener("click", () => wrapper.classList.remove("active"));*/
